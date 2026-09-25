@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/mobility-database",
+  "title": "Mobility Database",
+  "description": "MobilityData's open catalogue of public-transport feeds — ~4,500 GTFS schedule feeds and ~1,900…",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/mobility-database",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-mobility-database",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/mobility-database/mcp"
+    }
+  ]
+}

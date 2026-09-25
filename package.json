@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-mobility-database",
+  "version": "0.1.0",
+  "description": "MobilityData's open catalogue of public-transport feeds — ~4,500 GTFS schedule feeds and ~1,900 realtime feeds worldwide, each with the operator's own download URL.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-mobility-database": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "mobility-database"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-mobility-database.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-5b09ff3244dd191d9cdb44a53e8e716cfc9a2fe44a1800e68205358f7295cb04",
+    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+  }
+}
